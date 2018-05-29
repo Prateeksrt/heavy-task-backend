@@ -1,0 +1,106 @@
+{
+	"info": {
+		"name": "heavy-task",
+		"_postman_id": "6a196f91-81ff-4f05-7e06-fd25b2bec15d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create new task",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://heavytaskserviceonlineprofileme-env.pn3fb23y9e.us-east-2.elasticbeanstalk.com/task",
+					"protocol": "http",
+					"host": [
+						"heavytaskserviceonlineprofileme-env",
+						"pn3fb23y9e",
+						"us-east-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"task"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get overall stats",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://heavytaskserviceonlineprofileme-env.pn3fb23y9e.us-east-2.elasticbeanstalk.com/task",
+					"protocol": "http",
+					"host": [
+						"heavytaskserviceonlineprofileme-env",
+						"pn3fb23y9e",
+						"us-east-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"task"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete all stats",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://heavytaskserviceonlineprofileme-env.pn3fb23y9e.us-east-2.elasticbeanstalk.com/task",
+					"protocol": "http",
+					"host": [
+						"heavytaskserviceonlineprofileme-env",
+						"pn3fb23y9e",
+						"us-east-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"task"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
