@@ -35,7 +35,7 @@ public class TaskService {
     }
 
     private long nextNumber() {
-        return (long)random.nextInt(Integer.MAX_VALUE / 2);
+        return (long)random.nextInt();
     }
 
     public OverallStats getOverallStats(){
