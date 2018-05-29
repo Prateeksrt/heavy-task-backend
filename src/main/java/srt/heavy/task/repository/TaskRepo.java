@@ -17,5 +17,7 @@ public interface TaskRepo {
 
     long getAverageResponseTime();
 
-    List<Long> getLastTenResponseTime();
+    List getLastTenResponseTime();
+
+    void deleteAll();
 }

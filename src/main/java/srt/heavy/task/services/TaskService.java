@@ -47,4 +47,8 @@ public class TaskService {
                 new Date(),
                 taskRepo.getLastTenResponseTime());
     }
+
+    public void deleteAll() {
+        taskRepo.deleteAll();
+    }
 }

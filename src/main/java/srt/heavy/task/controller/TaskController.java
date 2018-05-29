@@ -29,4 +29,9 @@ public class TaskController {
     public OverallStats all(){
         return taskService.getOverallStats();
     }
+
+    @RequestMapping(method = RequestMethod.DELETE)
+    public void deleteAll(){
+        taskService.deleteAll();
+    }
 }
