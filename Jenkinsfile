@@ -3,7 +3,7 @@ pipeline {
     stages {
 	stage('checkout') {
 	    steps {
-		git url: https://github.com/Prateeksrt/heavy-task-backend.git
+		git url: 'https://github.com/Prateeksrt/heavy-task-backend.git'
 	    }
 	}
         stage('build') {
